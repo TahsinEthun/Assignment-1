@@ -10,93 +10,106 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   
-<section class="home">
-    <div class="text">
-        <h1>Let's Help Those Who Are <br> More In Need</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique vitae recusandae officiis? Nostrum, dolor.</p>
+
+    <!-- Home Section  -->
+    <section id="home">
+        <div class="home-text">
+            <h1>Let's Help Those Who Are <br> More In Need</h1>
+            <p>Online fundraising for the people and charities you love.Provide direct support to an individual,<br>
+                family or community by paying medical expenses or offering financial aid.</p>
+            <button class="btn"><strong>Donate Now</strong></button>
+        </div>
+    </section>
+
+    <!-- Donate today section -->
+
+    <section class="donate">
+        <div class="donate-today">
+            <h2>Donate Today</h2>
+            <p class="text-color">Help people by donating money as much as you can afford.<br>
+                Helping others can give you inner peace</p>
+        </div>
+        <div class="amounts">
+            <p class="amount-of-tk">
+                100tk
+            </p>
+            <p class="amount-of-tk" id="clicked-amount">
+                200tk
+            </p>
+            <p class="amount-of-tk">
+                500tk
+            </p>
+            <p class="amount-of-tk">
+                1000tk
+            </p>
+            <p class="amount-of-tk">
+                5000tk
+            </p>
+        </div>
+
+        <p id="other">Other Amount (Taka)</p>
+        <hr>
         <button class="btn">Donate Now</button>
-    </div>
-</section>
+    </section>
 
-<section class="donate" >
-    <div class="donate-today">
-    <h2>Donate Today</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, aspernatur?</p>
-</div>
-<div class="taka">
-    <p class="taka-lite">
-   100tk
-    </p>   
-     <p class="taka-lite">
-        200tk
-    </p>
-        <p class="taka-lite">
-        300tk
-    </p>
-        <p class="taka-lite">
-        400tk
-    </p>
-        <p class="taka-lite">
-        500tk
-    </p>
-    </div>
-    
-    <p>Other Amount (Taka)</p> <hr>
-    <button class="btn">Donate Now</button>
-</section>
-
-
-<section class="full-box">
-<h3>Our Donation Plan</h3>
-<p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli
-   <br> deterruisset. No duo populo animal noluisse, enim</p>
-<div class="box">
-<div class="boxes" id="box-1">
-    <img src="./icons/food.png" alt="">
-<h3>Food for a family</h3>
-<p>Amet minim mollit non deserunt
-    ullamco est sit aliqua dolor do amet
-    sint. Velit officia consequat duis enim
-    velit mollit</p>
-</div>
-<div class="boxes" id="box-2">
-    <img src="./icons/shelter.png" alt="">
-    <h3>Food for a family</h3>
-<p>Amet minim mollit non deserunt
-    ullamco est sit aliqua dolor do amet
-    sint. Velit officia consequat duis enim
-    velit mollit</p>
-</div>
-<div class="boxes" id="box-3">
-    <img src="./icons/Frame-1.png" alt="">
-    <h3>Food for a family</h3>
-<p>Amet minim mollit non deserunt
-    ullamco est sit aliqua dolor do amet
-    sint. Velit officia consequat duis enim
-    velit mollit</p>
-</div>
-</div>
-</section>
-
-<section class="update">
-<h1>Get My Updates</h1>
-<p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli <br> deterruisset. No duo populo animal noluisse, enim</p>
-<p class="prime">email</p>
-
-</section>
+    <!-- Donation plan section  -->
+    <section id="donation-plan">
+        <h2>Our Donation Plan</h2>
+        <p class="text-color">There are lots of ways to make good things happen,
+            <br>we have excellent ideas for helping people.
+        </p>
+        <div class="plan-box">
+            <div class="plans" id="box-1">
+                <img src="./icons/food.png" alt="">
+                <h3>Food for a family</h3>
+                <p class="text-color">Many people are dying in hunger.By your donations we can help them and give them
+                    proper meals.</p>
+            </div>
+            <div class="plans" id="box-2">
+                <img src="./icons/shelter.png" alt="">
+                <h3>Shelter for a family</h3>
+                <p class="text-color">We can ensure homeless peoples a proper shelter, where they can live properly.</p>
+            </div>
+            <div class="plans" id="box-3">
+                <img src="./icons/Frame-1.png" alt="">
+                <h3>Education for a child</h3>
+                <p class="text-color">Illiteracy is a curse.We try our best to give poor childreens proper education.
+                </p>
+            </div>
+        </div>
+    </section>
 
 
+    <!-- Update section  -->
+    <section id="update-sec">
+        <div class="update">
+            <h2>Get My Updates</h2>
+            <p class="text-color">For more updates , please enter your email and subscribe to our website.</p>
+        </div>
 
-
-
-
+        <div class="email-subscribe">
+            <div class="both-divisions">
+                <div class="email">
+                    <p class="common">Email</p>
+                </div>
+                <div class="subscribe">
+                    <p class="common">Subscribe</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
+<!-- footer section  -->
 <footer>
-    <h2>Be Humble</h2>
+    <h3>Be Humble</h3>
     <p>I am gonna do it</p>
 </footer>
+
 </html>
